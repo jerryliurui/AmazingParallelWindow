@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70EAE69520B7F958002919EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE69420B7F958002919EB /* AppDelegate.m */; };
+		70EAE69820B7F958002919EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE69720B7F958002919EB /* ViewController.m */; };
+		70EAE69B20B7F958002919EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EAE69920B7F958002919EB /* Main.storyboard */; };
+		70EAE69D20B7F958002919EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EAE69C20B7F958002919EB /* Assets.xcassets */; };
+		70EAE6A020B7F958002919EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EAE69E20B7F958002919EB /* LaunchScreen.storyboard */; };
+		70EAE6A320B7F958002919EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6A220B7F958002919EB /* main.m */; };
+		70EAE6AD20B7F959002919EB /* AmazingParallelWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6AC20B7F959002919EB /* AmazingParallelWindowTests.m */; };
+		70EAE6B820B7F959002919EB /* AmazingParallelWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6B720B7F959002919EB /* AmazingParallelWindowUITests.m */; };
+		70EAE6C720B7FAE6002919EB /* ParallelWindowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6C620B7FAE6002919EB /* ParallelWindowCell.m */; };
+		70EAE6CA20B7FB1B002919EB /* ParallelWindowCell+aboutParallel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6C920B7FB1B002919EB /* ParallelWindowCell+aboutParallel.m */; };
+		70EAE6CD20B7FC9D002919EB /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6CC20B7FC9D002919EB /* CellModel.m */; };
+		70EAE6D020B80DA6002919EB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EAE6CF20B80DA5002919EB /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70EAE6A920B7F959002919EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EAE68820B7F958002919EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EAE68F20B7F958002919EB;
+			remoteInfo = AmazingParallelWindow;
+		};
+		70EAE6B420B7F959002919EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EAE68820B7F958002919EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EAE68F20B7F958002919EB;
+			remoteInfo = AmazingParallelWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70EAE69020B7F958002919EB /* AmazingParallelWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingParallelWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EAE69320B7F958002919EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70EAE69420B7F958002919EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70EAE69620B7F958002919EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70EAE69720B7F958002919EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70EAE69A20B7F958002919EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70EAE69C20B7F958002919EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70EAE69F20B7F958002919EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70EAE6A120B7F958002919EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EAE6A220B7F958002919EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70EAE6A820B7F959002919EB /* AmazingParallelWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingParallelWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EAE6AC20B7F959002919EB /* AmazingParallelWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingParallelWindowTests.m; sourceTree = "<group>"; };
+		70EAE6AE20B7F959002919EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EAE6B320B7F959002919EB /* AmazingParallelWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingParallelWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EAE6B720B7F959002919EB /* AmazingParallelWindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingParallelWindowUITests.m; sourceTree = "<group>"; };
+		70EAE6B920B7F959002919EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EAE6C520B7FAE6002919EB /* ParallelWindowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParallelWindowCell.h; sourceTree = "<group>"; };
+		70EAE6C620B7FAE6002919EB /* ParallelWindowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallelWindowCell.m; sourceTree = "<group>"; };
+		70EAE6C820B7FB1B002919EB /* ParallelWindowCell+aboutParallel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParallelWindowCell+aboutParallel.h"; sourceTree = "<group>"; };
+		70EAE6C920B7FB1B002919EB /* ParallelWindowCell+aboutParallel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ParallelWindowCell+aboutParallel.m"; sourceTree = "<group>"; };
+		70EAE6CB20B7FC9D002919EB /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		70EAE6CC20B7FC9D002919EB /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		70EAE6CE20B80DA5002919EB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		70EAE6CF20B80DA5002919EB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70EAE68D20B7F958002919EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6A520B7F959002919EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6B020B7F959002919EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70EAE68720B7F958002919EB = {
+			isa = PBXGroup;
+			children = (
+				70EAE69220B7F958002919EB /* AmazingParallelWindow */,
+				70EAE6AB20B7F959002919EB /* AmazingParallelWindowTests */,
+				70EAE6B620B7F959002919EB /* AmazingParallelWindowUITests */,
+				70EAE69120B7F958002919EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70EAE69120B7F958002919EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70EAE69020B7F958002919EB /* AmazingParallelWindow.app */,
+				70EAE6A820B7F959002919EB /* AmazingParallelWindowTests.xctest */,
+				70EAE6B320B7F959002919EB /* AmazingParallelWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70EAE69220B7F958002919EB /* AmazingParallelWindow */ = {
+			isa = PBXGroup;
+			children = (
+				70EAE69320B7F958002919EB /* AppDelegate.h */,
+				70EAE69420B7F958002919EB /* AppDelegate.m */,
+				70EAE69620B7F958002919EB /* ViewController.h */,
+				70EAE69720B7F958002919EB /* ViewController.m */,
+				70EAE6C520B7FAE6002919EB /* ParallelWindowCell.h */,
+				70EAE6C620B7FAE6002919EB /* ParallelWindowCell.m */,
+				70EAE6C820B7FB1B002919EB /* ParallelWindowCell+aboutParallel.h */,
+				70EAE6C920B7FB1B002919EB /* ParallelWindowCell+aboutParallel.m */,
+				70EAE6CB20B7FC9D002919EB /* CellModel.h */,
+				70EAE6CC20B7FC9D002919EB /* CellModel.m */,
+				70EAE6CE20B80DA5002919EB /* UIView+Frame.h */,
+				70EAE6CF20B80DA5002919EB /* UIView+Frame.m */,
+				70EAE69920B7F958002919EB /* Main.storyboard */,
+				70EAE69C20B7F958002919EB /* Assets.xcassets */,
+				70EAE69E20B7F958002919EB /* LaunchScreen.storyboard */,
+				70EAE6A120B7F958002919EB /* Info.plist */,
+				70EAE6A220B7F958002919EB /* main.m */,
+			);
+			path = AmazingParallelWindow;
+			sourceTree = "<group>";
+		};
+		70EAE6AB20B7F959002919EB /* AmazingParallelWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				70EAE6AC20B7F959002919EB /* AmazingParallelWindowTests.m */,
+				70EAE6AE20B7F959002919EB /* Info.plist */,
+			);
+			path = AmazingParallelWindowTests;
+			sourceTree = "<group>";
+		};
+		70EAE6B620B7F959002919EB /* AmazingParallelWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70EAE6B720B7F959002919EB /* AmazingParallelWindowUITests.m */,
+				70EAE6B920B7F959002919EB /* Info.plist */,
+			);
+			path = AmazingParallelWindowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70EAE68F20B7F958002919EB /* AmazingParallelWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EAE6BC20B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindow" */;
+			buildPhases = (
+				70EAE68C20B7F958002919EB /* Sources */,
+				70EAE68D20B7F958002919EB /* Frameworks */,
+				70EAE68E20B7F958002919EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingParallelWindow;
+			productName = AmazingParallelWindow;
+			productReference = 70EAE69020B7F958002919EB /* AmazingParallelWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70EAE6A720B7F959002919EB /* AmazingParallelWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EAE6BF20B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindowTests" */;
+			buildPhases = (
+				70EAE6A420B7F959002919EB /* Sources */,
+				70EAE6A520B7F959002919EB /* Frameworks */,
+				70EAE6A620B7F959002919EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EAE6AA20B7F959002919EB /* PBXTargetDependency */,
+			);
+			name = AmazingParallelWindowTests;
+			productName = AmazingParallelWindowTests;
+			productReference = 70EAE6A820B7F959002919EB /* AmazingParallelWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70EAE6B220B7F959002919EB /* AmazingParallelWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EAE6C220B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindowUITests" */;
+			buildPhases = (
+				70EAE6AF20B7F959002919EB /* Sources */,
+				70EAE6B020B7F959002919EB /* Frameworks */,
+				70EAE6B120B7F959002919EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EAE6B520B7F959002919EB /* PBXTargetDependency */,
+			);
+			name = AmazingParallelWindowUITests;
+			productName = AmazingParallelWindowUITests;
+			productReference = 70EAE6B320B7F959002919EB /* AmazingParallelWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70EAE68820B7F958002919EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JerryLiu;
+				TargetAttributes = {
+					70EAE68F20B7F958002919EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					70EAE6A720B7F959002919EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EAE68F20B7F958002919EB;
+					};
+					70EAE6B220B7F959002919EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EAE68F20B7F958002919EB;
+					};
+				};
+			};
+			buildConfigurationList = 70EAE68B20B7F958002919EB /* Build configuration list for PBXProject "AmazingParallelWindow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70EAE68720B7F958002919EB;
+			productRefGroup = 70EAE69120B7F958002919EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70EAE68F20B7F958002919EB /* AmazingParallelWindow */,
+				70EAE6A720B7F959002919EB /* AmazingParallelWindowTests */,
+				70EAE6B220B7F959002919EB /* AmazingParallelWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70EAE68E20B7F958002919EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EAE6A020B7F958002919EB /* LaunchScreen.storyboard in Resources */,
+				70EAE69D20B7F958002919EB /* Assets.xcassets in Resources */,
+				70EAE69B20B7F958002919EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6A620B7F959002919EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6B120B7F959002919EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70EAE68C20B7F958002919EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EAE6C720B7FAE6002919EB /* ParallelWindowCell.m in Sources */,
+				70EAE69820B7F958002919EB /* ViewController.m in Sources */,
+				70EAE6A320B7F958002919EB /* main.m in Sources */,
+				70EAE6D020B80DA6002919EB /* UIView+Frame.m in Sources */,
+				70EAE6CA20B7FB1B002919EB /* ParallelWindowCell+aboutParallel.m in Sources */,
+				70EAE69520B7F958002919EB /* AppDelegate.m in Sources */,
+				70EAE6CD20B7FC9D002919EB /* CellModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6A420B7F959002919EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EAE6AD20B7F959002919EB /* AmazingParallelWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EAE6AF20B7F959002919EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EAE6B820B7F959002919EB /* AmazingParallelWindowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70EAE6AA20B7F959002919EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EAE68F20B7F958002919EB /* AmazingParallelWindow */;
+			targetProxy = 70EAE6A920B7F959002919EB /* PBXContainerItemProxy */;
+		};
+		70EAE6B520B7F959002919EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EAE68F20B7F958002919EB /* AmazingParallelWindow */;
+			targetProxy = 70EAE6B420B7F959002919EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70EAE69920B7F958002919EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EAE69A20B7F958002919EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70EAE69E20B7F958002919EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EAE69F20B7F958002919EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70EAE6BA20B7F959002919EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70EAE6BB20B7F959002919EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70EAE6BD20B7F959002919EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AmazingParallelWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70EAE6BE20B7F959002919EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AmazingParallelWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70EAE6C020B7F959002919EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = AmazingParallelWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingParallelWindow.app/AmazingParallelWindow";
+			};
+			name = Debug;
+		};
+		70EAE6C120B7F959002919EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = AmazingParallelWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingParallelWindow.app/AmazingParallelWindow";
+			};
+			name = Release;
+		};
+		70EAE6C320B7F959002919EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = AmazingParallelWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazingParallelWindow;
+			};
+			name = Debug;
+		};
+		70EAE6C420B7F959002919EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W755NUT7GJ;
+				INFOPLIST_FILE = AmazingParallelWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.AmazingParallelWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazingParallelWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70EAE68B20B7F958002919EB /* Build configuration list for PBXProject "AmazingParallelWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EAE6BA20B7F959002919EB /* Debug */,
+				70EAE6BB20B7F959002919EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EAE6BC20B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EAE6BD20B7F959002919EB /* Debug */,
+				70EAE6BE20B7F959002919EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EAE6BF20B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EAE6C020B7F959002919EB /* Debug */,
+				70EAE6C120B7F959002919EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EAE6C220B7F959002919EB /* Build configuration list for PBXNativeTarget "AmazingParallelWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EAE6C320B7F959002919EB /* Debug */,
+				70EAE6C420B7F959002919EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70EAE68820B7F958002919EB /* Project object */;
+}
